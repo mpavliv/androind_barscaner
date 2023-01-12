@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/buttonProduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonProduction"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/green"
+        android:layout_margin="30sp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        />
+
+
+    <Button
+        android:id="@+id/buttonControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonControl"
+        android:onClick="openActivityControl"
+        android:layout_below="@id/buttonProduction"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/red"
+        android:layout_margin="30sp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/buttonShipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonShipment"
+        android:onClick="shipment"
+        android:layout_below="@id/buttonControl"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/finish"
+        android:layout_margin="30sp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/LoadSN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_sn_dictionary"
+        android:layout_below="@id/buttonShipment"
+        android:onClick="loadDictionary"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/teal_200"
+        android:layout_margin="30sp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:text="Settings"
+        android:backgroundTint="@color/black"
+        android:onClick="Settings"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

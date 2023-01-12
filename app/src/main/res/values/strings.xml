@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vika Mebli</string>
+    <string name="buttonProduction">Production</string>
+    <string name="ActionBar">VIKA MEBLI</string>
+    <string name="buttonControl">Control</string>
+    <string name="buttonShipment">Shipment</string>
+    <string name="load_sn_dictionary">Load SN dictionary</string>
+    <string name="textview">TextView</string>
+</resources>
